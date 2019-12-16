@@ -15,14 +15,14 @@ layout: about
 <ul class="ul-about ul-show">
     <li class="li1">
         <div class="block">
-            <img src="images/c1.png" alt="网博思创">
-            <img src="images/c2.png" alt="">
-            <img src="images/c3.png" alt="">
-            <img src="images/c4.png" alt="">
-            <img src="images/c5.png" alt="">
-            <img src="images/c6.png" alt="">
-            <img src="images/c7.png" alt="">
-            <img src="images/c8.png" alt="">
+            <img src="/images/c1.png" alt="网博思创">
+            <img src="/images/c2.png" alt="">
+            <img src="/images/c3.png" alt="">
+            <img src="/images/c4.png" alt="">
+            <img src="/images/c5.png" alt="">
+            <img src="/images/c6.png" alt="">
+            <img src="/images/c7.png" alt="">
+            <img src="/images/c8.png" alt="">
         </div>
         <h3>量身打造</h3>
         <em></em>
@@ -33,16 +33,16 @@ layout: about
     </li>
     <li class="li2">
         <div class="block">
-            <img src="images/t1.png" alt="" data-top-center="background-position:0px 0px;"
+            <img src="/images/t1.png" alt="" data-top-center="background-position:0px 0px;"
                 data-bottom-center="background-position:141px 0px;">
-            <img src="images/t2.png" alt="网博思创">
-            <img src="images/t3.png" alt="">
-            <img src="images/t4.png" alt="">
-            <img src="images/t5.png" alt="">
-            <img src="images/t6.png" alt="">
-            <img src="images/t7.png" alt="">
-            <img src="images/t8.png" alt="">
-            <img src="images/t9.png" alt="">
+            <img src="/images/t2.png" alt="网博思创">
+            <img src="/images/t3.png" alt="">
+            <img src="/images/t4.png" alt="">
+            <img src="/images/t5.png" alt="">
+            <img src="/images/t6.png" alt="">
+            <img src="/images/t7.png" alt="">
+            <img src="/images/t8.png" alt="">
+            <img src="/images/t9.png" alt="">
         </div>
         <h3>领先设计</h3>
         <em></em>
@@ -65,10 +65,10 @@ layout: about
     </li>
     <li class="li3">
         <div class="block">
-            <img src="images/b1.png" alt="webthink">
-            <img src="images/b2.png" alt="">
-            <img src="images/b3.png" alt="">
-            <img src="images/b4.png" alt="">
+            <img src="/images/b1.png" alt="webthink">
+            <img src="/images/b2.png" alt="">
+            <img src="/images/b3.png" alt="">
+            <img src="/images/b4.png" alt="">
         </div>
         <div class="c"></div>
         <h3>全网开发</h3>
@@ -88,16 +88,16 @@ layout: about
                 <h5>our <span>customer</span></h5>
             </div>
             <ul class="ul-customer">
-                <li><a href=""><b></b><img src="images/14417772351016.png" alt="" width="234" height="87"></a></li>
-                <li><a href=""><b></b><img src="images/14417772151236.png" alt="" width="234" height="87"></a></li>
-                <li><a href=""><b></b><img src="images/14417777895049.png" alt="" width="234" height="87"></a></li>
-                <li><a href=""><b></b><img src="images/14417773256917.png" alt="" width="234" height="87"></a></li>
-                <li><a href=""><b></b><img src="images/14417770416979.png" alt="" width="234" height="87"></a></li>
-                <li><a href=""><b></b><img src="images/14417770728965.png" alt="" width="234" height="87"></a></li>
-                <li><a href=""><b></b><img src="images/14417770931301.png" alt="" width="234" height="87"></a></li>
-                <li><a href=""><b></b><img src="images/14417685061923.png" alt="" width="234" height="87"></a></li>
-                <li><a href=""><b></b><img src="images/14417778261716.png" alt="" width="234" height="87"></a></li>
-                <li><a href=""><b></b><img src="images/14417773644618.png" alt="" width="234" height="87"></a></li>
+                <li><a href=""><b></b><img src="/images/14417772351016.png" alt="" width="234" height="87"></a></li>
+                <li><a href=""><b></b><img src="/images/14417772151236.png" alt="" width="234" height="87"></a></li>
+                <li><a href=""><b></b><img src="/images/14417777895049.png" alt="" width="234" height="87"></a></li>
+                <li><a href=""><b></b><img src="/images/14417773256917.png" alt="" width="234" height="87"></a></li>
+                <li><a href=""><b></b><img src="/images/14417770416979.png" alt="" width="234" height="87"></a></li>
+                <li><a href=""><b></b><img src="/images/14417770728965.png" alt="" width="234" height="87"></a></li>
+                <li><a href=""><b></b><img src="/images/14417770931301.png" alt="" width="234" height="87"></a></li>
+                <li><a href=""><b></b><img src="/images/14417685061923.png" alt="" width="234" height="87"></a></li>
+                <li><a href=""><b></b><img src="/images/14417778261716.png" alt="" width="234" height="87"></a></li>
+                <li><a href=""><b></b><img src="/images/14417773644618.png" alt="" width="234" height="87"></a></li>
             </ul>
         </div>
     </div>
@@ -123,9 +123,9 @@ layout: about
                             <p data-animate="fadeInDown" class="animated"><a href="" class="more">加入我们</a></p>
                         </div>
                         <div class="pic">
-                            <img data-animate="fadeInLeft" data-delay="0.5" class="animated" src="images/o5.png"
+                            <img data-animate="fadeInLeft" data-delay="0.5" class="animated" src="/images/o5.png"
                                 alt="">
-                            <img data-animate="fadeInRight" data-delay="0.9" class="animated" src="images/o6.png"
+                            <img data-animate="fadeInRight" data-delay="0.9" class="animated" src="/images/o6.png"
                                 alt="">
                         </div>
                     </div>
@@ -142,15 +142,15 @@ layout: about
                             <p data-animate="fadeInDown" class="animated"><a href="" class="more">加入我们</a></p>
                         </div>
                         <div class="pic">
-                            <img data-animate="fadeInLeft" data-delay="0.5" class="animated" src="images/o7.png"
+                            <img data-animate="fadeInLeft" data-delay="0.5" class="animated" src="/images/o7.png"
                                 alt="">
-                            <img data-animate="fadeInLeft" data-delay="0.8" class="animated" src="images/o8.png"
+                            <img data-animate="fadeInLeft" data-delay="0.8" class="animated" src="/images/o8.png"
                                 alt="">
-                            <img data-animate="fadeInLeft" data-delay="1.2" class="animated" src="images/o9.png"
+                            <img data-animate="fadeInLeft" data-delay="1.2" class="animated" src="/images/o9.png"
                                 alt="">
-                            <img data-animate="fadeInRight" data-delay="1.5" class="animated" src="images/o10.png"
+                            <img data-animate="fadeInRight" data-delay="1.5" class="animated" src="/images/o10.png"
                                 alt="">
-                            <img data-animate="fadeInDown" data-delay="1.8" class="animated" src="images/o11.png"
+                            <img data-animate="fadeInDown" data-delay="1.8" class="animated" src="/images/o11.png"
                                 alt="">
                         </div>
                     </div>
@@ -168,15 +168,15 @@ layout: about
                         </div>
                     </div>
                     <div class="pic">
-                        <img data-animate="fadeInRight" data-delay="0.5" class="animated" src="images/o18.png"
+                        <img data-animate="fadeInRight" data-delay="0.5" class="animated" src="/images/o18.png"
                             alt="">
-                        <img data-animate="fadeInRight" data-delay="1.5" class="animated" src="images/o21.png"
+                        <img data-animate="fadeInRight" data-delay="1.5" class="animated" src="/images/o21.png"
                             alt="">
-                        <img data-animate="fadeInLeft" data-delay="0.8" class="animated" src="images/o19.png"
+                        <img data-animate="fadeInLeft" data-delay="0.8" class="animated" src="/images/o19.png"
                             alt="">
-                        <img data-animate="fadeInLeft" data-delay="1.2" class="animated" src="images/o20.png"
+                        <img data-animate="fadeInLeft" data-delay="1.2" class="animated" src="/images/o20.png"
                             alt="">
-                        <img data-animate="fadeInLeft" data-delay="1.8" class="animated" src="images/o22.png"
+                        <img data-animate="fadeInLeft" data-delay="1.8" class="animated" src="/images/o22.png"
                             alt="">
                     </div>
                 </li>
@@ -195,17 +195,17 @@ layout: about
                             <p data-animate="fadeInDown" class="animated"><a href="" class="more">加入我们</a></p>
                         </div>
                         <div class="pic">
-                            <img data-animate="fadeInLeft" data-delay="0.5" class="animated" src="images/o12.png"
+                            <img data-animate="fadeInLeft" data-delay="0.5" class="animated" src="/images/o12.png"
                                 alt="">
-                            <img data-animate="fadeInLeft" data-delay="1.2" class="animated" src="images/o14.png"
+                            <img data-animate="fadeInLeft" data-delay="1.2" class="animated" src="/images/o14.png"
                                 alt="">
-                            <img data-animate="fadeInLeft" data-delay="0.8" class="animated" src="images/o13.png"
+                            <img data-animate="fadeInLeft" data-delay="0.8" class="animated" src="/images/o13.png"
                                 alt="">
-                            <img data-animate="fadeInLeft" data-delay="1.5" class="animated" src="images/o15.png"
+                            <img data-animate="fadeInLeft" data-delay="1.5" class="animated" src="/images/o15.png"
                                 alt="">
-                            <img data-animate="fadeInLeft" data-delay="1.8" class="animated" src="images/o17.png"
+                            <img data-animate="fadeInLeft" data-delay="1.8" class="animated" src="/images/o17.png"
                                 alt="">
-                            <img data-animate="fadeInLeft" data-delay="2.2" class="animated" src="images/o16.png"
+                            <img data-animate="fadeInLeft" data-delay="2.2" class="animated" src="/images/o16.png"
                                 alt="">
                         </div>
                     </div>
@@ -222,13 +222,13 @@ layout: about
                             <p data-animate="fadeInDown" class="animated"><a href="" class="more">加入我们</a></p>
                         </div>
                         <div class="pic">
-                            <img data-animate="fadeInDown" data-delay="0.5" class="animated" src="images/o1.png"
+                            <img data-animate="fadeInDown" data-delay="0.5" class="animated" src="/images/o1.png"
                                 alt="">
-                            <img data-animate="fadeInUp" data-delay="0.8" class="animated" src="images/o2.png"
+                            <img data-animate="fadeInUp" data-delay="0.8" class="animated" src="/images/o2.png"
                                 alt="">
-                            <img data-animate="fadeInUp" data-delay="1.2" class="animated" src="images/o3.png"
+                            <img data-animate="fadeInUp" data-delay="1.2" class="animated" src="/images/o3.png"
                                 alt="">
-                            <img data-animate="fadeInDown" data-delay="1.5" class="animated" src="images/o4.png"
+                            <img data-animate="fadeInDown" data-delay="1.5" class="animated" src="/images/o4.png"
                                 alt="">
                         </div>
                     </div>

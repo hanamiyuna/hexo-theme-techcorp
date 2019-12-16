@@ -13,9 +13,9 @@ nav:
   banner:
     - 
       banner: ./images/banner1.jpg
-      sloganEnglish: innovating for you
-      slogan: 用整合的思想做互动
-      shortDescription: 不只是建站，更提供有价值的思路和整体服务
+      sloganEnglish: innovating
+      slogan: 标语
+      shortDescription: 宣传语
     - 
       banner: ./images/banner2.jpg
       sloganEnglish: Website Design
@@ -33,11 +33,12 @@ nav:
 
 menu:
  首页: /
- 关于: /about/
- 服务: /services/
- 案例: /solutions/
- 动态: /updates/
- 联系我们: /contact/
+ 关于: /about
+ 服务: /service
+ 案例: /case
+ 动态: /update
+ 联系我们: /contact
+
 tele: 400-008-0408
 
 # -----------------
