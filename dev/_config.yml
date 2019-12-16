@@ -1,0 +1,25 @@
+# ------------
+# 导航栏 navbar
+# ------------
+
+nav:
+  slogan: innovating for you
+  sub-slogan: 用整合的思想做互动
+  short-description: 不只是建站，更提供有价值的思路和整体服务
+
+# ------------
+# 菜单 menu
+# ------------
+
+menu:
+ 首页: /
+ 关于: /about/
+ 服务: /services/
+ 案例: /solutions/
+ 动态: /updates/
+ 联系我们: /contact/
+tele: 400-008-0408
+
+# ------------
+# 简要介绍 mini description
+# ------------

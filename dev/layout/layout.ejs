@@ -1,0 +1,11 @@
+<%- partial('_partial/head')%>
+
+<body>
+    <%- partial('_partial/header') %>
+
+    <% if(page.layout) { %>
+        <%- partial(page.layout) %>
+    <% } else { %>
+        <%- partial('index') %>
+    <% } %>
+</body>
