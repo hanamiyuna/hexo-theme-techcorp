@@ -1,15 +1,35 @@
-# ------------
+# -----------------
+# 企业信息 corp info
+# -----------------
+
+corp:
+  name: WEBTHINK
+
+# -----------------
 # 导航栏 navbar
-# ------------
+# -----------------
 
 nav:
-  slogan: innovating for you
-  sub-slogan: 用整合的思想做互动
-  short-description: 不只是建站，更提供有价值的思路和整体服务
+  banner:
+    - 
+      banner: 
+      sloganEnglish: innovating for you
+      slogan: 用整合的思想做互动
+      shortDescription: 不只是建站，更提供有价值的思路和整体服务
+    - 
+      banner:
+      sloganEnglish: Website Design
+      slogan: "9 年资深网络建设经验"
+      shortDescription: "我们专注于品质化高端网站构建，企业品牌在网站中的整体树立，网络互动的体验，以及在手机等移动端的优质呈现。"
+    - 
+      banner:
+      sloganEnglish: CORPORATE WEBSITE
+      slogan: 高端定制 品牌设计
+      shortDescription: 思恩致力于为客户提供最具有竞争力的网站，将每个案例都做成经典。
 
-# ------------
+# -----------------
 # 菜单 menu
-# ------------
+# -----------------
 
 menu:
  首页: /
@@ -20,6 +40,15 @@ menu:
  联系我们: /contact/
 tele: 400-008-0408
 
-# ------------
+# -----------------
 # 简要介绍 mini description
-# ------------
+# -----------------
+
+
+# -----------------
+# 板式设定 layout
+# -----------------
+
+layout:
+  about:
+    name: about

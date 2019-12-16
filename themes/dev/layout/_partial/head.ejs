@@ -1,8 +1,15 @@
+<% 
+let title = config.title
+if (page.title) {
+    title = page.title + " - " + title
+}
+%>
+
 <!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title><%= title %></title>
     <meta name="keywords" content="" />
     <meta name="description" content="" />
     <meta content="telephone=no" name="format-detection" />
