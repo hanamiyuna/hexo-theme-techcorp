@@ -58,9 +58,13 @@ hexo g && hexo s
 ```
 ./source/_updates/*.md
 ```
+案例文件地址：
+```
+./source/_cases/*.md
+```
 页面文件地址：
 ```
-./source/[page name]/index.md
+./source/[page name].md
 ```
 
 # 提交更改的模版
