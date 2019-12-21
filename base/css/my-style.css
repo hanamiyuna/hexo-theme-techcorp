@@ -1,0 +1,9 @@
+#hd .wp{
+  display: flex;
+}
+
+#hd .wp #nav {
+  display: flex;
+  margin-left: auto;
+  margin-right: 30px;
+}
