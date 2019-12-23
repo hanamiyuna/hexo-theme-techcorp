@@ -1,0 +1,105 @@
+# -----------------
+# 企业信息 corp info
+# -----------------
+
+corp:
+  name: WEBTHINK
+
+# -----------------
+# 导航栏 navbar
+# -----------------
+
+nav:
+  banner:
+    - 
+      banner: ./images/home_banner.jpg
+      sloganEnglish: slogan
+      slogan: 标语
+      shortDescription: 宣传语
+    - 
+      banner: ./images/banner2.jpg
+      sloganEnglish: Slogan
+      slogan: 标语
+      shortDescription: 宣传语
+    - 
+      banner: ./images/banner3.jpg
+      sloganEnglish: slogan
+      slogan: 标语
+      shortDescription: 宣传语
+
+# -----------------
+# 菜单 menu
+# -----------------
+
+menu:
+ 首页: /
+ 关于: /about
+ 服务: /service
+ 案例: /case
+ 动态: /update
+ 联系我们: /contact
+
+tele: 400-008-0408
+
+# -----------------
+# 简要介绍 mini description
+# -----------------
+
+
+# -----------------
+# 板式设定 layout
+# -----------------
+
+layout:
+  about:
+    name: about
+
+# -----------------
+# 主页内容 index content
+# -----------------
+
+
+  
+# -----------------
+# 页脚 footer
+# -----------------
+
+footer:
+  about: 
+    title: 关于宽恒
+    items: 
+    - link1: /link1/
+  
+  product:
+    title: 产品库
+    items:
+    - link1: /link1/
+    - link2: /link2/
+      
+  service: 
+    title: 解决方案
+    items:
+    - link1: /link1/
+    - link2: /link2/
+    
+  case:
+    title: 成功案列
+    items:
+    - link1: /link1/
+    - link2: /link2/
+  
+  update:
+    title: 企业动态
+    items:
+    - link1: /link1/
+
+  contact:
+    title: 联系我们
+    items:
+    - 微信: wechatID
+    - 电话: telno
+  
+
+footerInfo:
+  corpname: 
+  

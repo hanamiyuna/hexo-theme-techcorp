@@ -1,0 +1,60 @@
+<div id="bd">
+    <div id="ban-in" style="background-image:url(/images/14415956833641.jpg)">
+        <div class="ban-bg"></div>
+    </div>
+    <div class="wp" id="whous">
+        <div class="tit-i">
+            <h3><%- page.title %></h3>
+            <h5><%- theme.layout.about.name %> <span><%- theme.corp.name %></span></h5>
+        </div>
+        <div class="c"></div>
+        <div class="markdown">
+            <%- page.content %>
+        </div>
+    </div>
+
+    <%- partial('_partial/script') %>
+
+    <script>
+        $('.team .flexslider').flexslider({
+            animation: "slide",
+            animationLoop: true,
+            slideshow: false,
+            prevText: "",
+            nextText: "",
+            controlNav: false,
+            directionNav: true,
+            pauseOnHover: true,
+            slideshowSpeed: 3000,
+            start: function (slider) {
+
+            },
+            before: function () {
+                $('.flexslider').resize();
+            },
+            after: function (slider) {
+                initState();
+                move();
+            }
+        });
+        function initState() {
+            $('.team .animated').each(function () {
+                var dataAnimate = $(this).data('animate');
+                $(this).removeClass(dataAnimate);
+            })
+        }
+        function move() {
+            var curSlide = $('.team .slides li.flex-active-slide');
+            var h3 = curSlide.find('h3'),
+                p = curSlide.find('p'),
+                img = curSlide.find('img');
+            h3.addClass(h3.data('animate'));
+            p.addClass(p.data('animate'));
+            img.each(function () {
+                $(this).addClass($(this).data('animate')).css({ 'animation-delay': $(this).data('delay') + 's' });
+            })
+        }
+        $(window).load(function () {
+            move();
+        })
+    </script>

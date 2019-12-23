@@ -2,9 +2,6 @@
 
 <body>
     <%- partial('_partial/header') %>
-
-    <%- partial('_partial/side-contact') %>
-    <%- partial('_partial/side-qrcode') %>
     
     <% if(page.layout) { %>
         <%- partial(page.layout) %>
@@ -12,5 +9,7 @@
         <%- partial('index') %>
     <% } %>
 
-    <%- partial('_partial/footer') %>
+    <div class="">
+        <%- partial('_partial/footer') %>
+    </div>
 </body>

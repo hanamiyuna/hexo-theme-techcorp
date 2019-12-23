@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://localhost:4000
+url: https://dev.async.moe
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -98,4 +98,12 @@ theme: dev
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: ''
+  type: rsync
+  host: yutsuki
+  user: yuna
+  root: /usr/share/nginx/dev
+  port: 22
+  delete: true
+  verbose: true
+  ignore_errors: false
+  args: --rsync-path=sudo rsync

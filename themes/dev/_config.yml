@@ -12,20 +12,14 @@ corp:
 nav:
   banner:
     - 
-      banner: ./images/banner1.jpg
-      sloganEnglish: innovating
+      banner: ./images/home_banner.jpg
       slogan: 标语
-      shortDescription: 宣传语
     - 
       banner: ./images/banner2.jpg
-      sloganEnglish: Website Design
-      slogan: "9 年资深网络建设经验"
-      shortDescription: "我们专注于品质化高端网站构建，企业品牌在网站中的整体树立，网络互动的体验，以及在手机等移动端的优质呈现。"
+      slogan: 标语
     - 
       banner: ./images/banner3.jpg
-      sloganEnglish: CORPORATE WEBSITE
-      slogan: 高端定制 品牌设计
-      shortDescription: 思恩致力于为客户提供最具有竞争力的网站，将每个案例都做成经典。
+      slogan: 标语
 
 # -----------------
 # 菜单 menu
@@ -55,5 +49,51 @@ layout:
     name: about
 
 # -----------------
-# 
+# 主页内容 index content
 # -----------------
+
+
+  
+# -----------------
+# 页脚 footer
+# -----------------
+
+footer:
+  about: 
+    title: 关于宽恒
+    items: 
+    - link1: /link1/
+  
+  product:
+    title: 产品库
+    items:
+    - link1: /link1/
+    - link2: /link2/
+      
+  service: 
+    title: 解决方案
+    items:
+    - link1: /link1/
+    - link2: /link2/
+    
+  case:
+    title: 成功案列
+    items:
+    - link1: /link1/
+    - link2: /link2/
+  
+  update:
+    title: 企业动态
+    items:
+    - link1: /link1/
+
+  contact:
+    title: 联系我们
+    items:
+    - 微信: wechatID
+    - 电话: telno
+  
+
+footerInfo:
+  corpname: 
+  
