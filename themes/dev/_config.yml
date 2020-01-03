@@ -3,7 +3,7 @@
 # -----------------
 
 corp:
-  name: WEBTHINK
+  name: 宽恒服务
 
 # -----------------
 # 导航栏 navbar
@@ -12,14 +12,21 @@ corp:
 nav:
   banner:
     - 
-      banner: ./images/home_banner.jpg
-      slogan: 标语
+      banner: ./images/banner-01.jpg
+      slogan: 随便改一个
+      description: 填写你需要的简介
     - 
-      banner: ./images/banner2.jpg
+      banner: ./images/banner-02.jpg
       slogan: 标语
+      description: 填写你需要的简介内容
     - 
-      banner: ./images/banner3.jpg
+      banner: ./images/banner-03.jpg
       slogan: 标语
+      description: 填写你需要的简介内容目标
+    -
+      banner: ./images/banner-04.jpg
+      slogan: 标语
+      description: 这里放置简介
 
 # -----------------
 # 菜单 menu

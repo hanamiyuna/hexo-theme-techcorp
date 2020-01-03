@@ -13,9 +13,7 @@ nav:
   banner:
     - 
       banner: ./images/home_banner.jpg
-      sloganEnglish: slogan
-      slogan: 标语
-      shortDescription: 宣传语
+      slogan: 随便改一个
     - 
       banner: ./images/banner2.jpg
       sloganEnglish: Slogan
