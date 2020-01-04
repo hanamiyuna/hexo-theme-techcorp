@@ -1,53 +1,55 @@
 <div id="fd" class="index-fd pr">
     <div class="map-bg3"></div>
     <div class="wp">
-        <div class="fd-top">
-            <dl>
-                <dt><%= theme.footer.about.title %></dt>
-                <dd>
-                    <ul class="ul-fd">
-                        <%- footerItems(theme.footer.about.items, config.url) %>
-                    </ul>
-                </dd>
-            </dl>
-            <dl>
-                <dt><%= theme.footer.product.title %></dt>
-                <dd>
-                    <ul class="ul-fd">
-                        <%- footerItems(theme.footer.product.items, config.url) %>
-                    </ul>
-                </dd>
-            </dl>
-            <dl>
-                <dt><%= theme.footer.service.title %></dt>
-                <dd>
-                    <ul class="ul-fd">
-                        <%- footerItems(theme.footer.service.items, config.url) %>
-                    </ul>
-                </dd>
-            </dl>
-            <dl>
-                <dt><%= theme.footer.update.title %></dt>
-                <dd>
-                    <ul class="ul-fd">
-                        <li><a href="">公司动态</a></li>
-                    </ul>
-                </dd>
-            </dl>
-            <dl>
-                <dt><%= theme.footer.contact.title %></dt>
-                <dd class="pr">
-                    <p><a href="" class="weixin"></a><a href="" class="sina"></a><span class="weixin-pic"><img
-                                src="/images/ewm.jpg" alt=""></span></p>
-                    <p><b class="tel">400-008-0408</b></p>
-                    <h5>思恩服务热线</h5>
-                </dd>
-            </dl>
+        <div class="fd-top container-fluid">
+            <div class="row">
+                <dl class="col-sm">
+                    <dt><%= theme.footer.about.title %></dt>
+                    <dd>
+                        <ul class="ul-fd">
+                            <%- footerItems(theme.footer.about.items, config.url) %>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="col-sm">
+                    <dt><%= theme.footer.product.title %></dt>
+                    <dd>
+                        <ul class="ul-fd">
+                            <%- footerItems(theme.footer.product.items, config.url) %>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="col-sm">
+                    <dt><%= theme.footer.service.title %></dt>
+                    <dd>
+                        <ul class="ul-fd">
+                            <%- footerItems(theme.footer.service.items, config.url) %>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="col-sm">
+                    <dt><%= theme.footer.update.title %></dt>
+                    <dd>
+                        <ul class="ul-fd">
+                            <li><a href="">公司动态</a></li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="col-sm">
+                    <dt><%= theme.footer.contact.title %></dt>
+                    <dd class="pr">
+                        <p><a href="" class="weixin"></a><a href="" class="sina"></a><span class="weixin-pic"><img
+                                    src="/images/ewm.jpg" alt=""></span></p>
+                        <p><b class="tel">400-008-0408</b></p>
+                        <h5>思恩服务热线</h5>
+                    </dd>
+                </dl>
+            </div>
         </div>
     </div>
     <div class="fd-copy">
         <div class="wp">
-            <p>
+            <p style="margin: 0;">
                 <span>思恩网络技术（北京）有限公司 Copyright&copy; 2007-2015 </span><a href=""><span>京ICP备07017583号-1</span></a>
                 <a href=""></a>
             </p>

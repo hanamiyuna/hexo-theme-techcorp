@@ -71,12 +71,11 @@
     }
 }
 
-/* ==============================================================
-    banner end
-============================================================== */
+/* banner end */
 
-.container {
-    margin-top: 4rem;
+.container-fluid.corp {
+    width: 100%;
+    padding-top: 4rem;
 }
 
 .row-title {
@@ -84,7 +83,7 @@
     margin-bottom: 64px;
 }
 
-.kh-services {
+.kh-services, .kh-products,.kh-samples {
     box-sizing: border-box;
     padding: 24px;
     display: flex;
@@ -99,11 +98,27 @@
     background: orange;
 }
 
-.kh-services p:nth-of-type(1) {
+.kh-products img{
+    height: 128px;
+    width: 128px;
+    background: green;
+}
+
+.kh-samples img{
+    height: 192px;
+    width: 256px;
+    background: blueviolet;
+}
+
+.kh-services p:nth-of-type(1), .kh-products p:nth-of-type(1) {
     margin-top: 16px;
     font-size: 20px;
     font-weight: bold;
 }
+
+/* ==============================================================
+    index end
+============================================================== */
 
 a {
     color: #000022;
@@ -133,8 +148,8 @@ a {
     padding-bottom: 45px;
 }
 #fd dl {
-    float: left;
-    width: 20%;
+    /* float: left;
+    width: 20%; */
 }
 #fd dl dt {
     font-size: 16px;
