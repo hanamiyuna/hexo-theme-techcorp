@@ -5,6 +5,7 @@
 corp:
   name: 宽恒
   nameEnglish: Kuanheng
+  nameFull: 宽恒网络技术有限公司
   about: 关于宽恒
   serices: 宽恒服务
   products: 宽恒产品
@@ -63,12 +64,81 @@ layout:
     name: solution
   case:
     name: case
-
+  update:
+    name: update
+  product:
+    name: product
 # -----------------
 # 主页内容 index content
 # -----------------
 
-
+index:
+  # 服务
+  services:
+    -
+      image: ./images/banner-01.jpg
+      name: IDC
+      description: index.services[0].description
+    -
+      image: ./images/banner-01.jpg
+      name: 系统集成
+      description: index.services[1].description
+    -
+      image: ./images/banner-01.jpg
+      name: VR 解决方案
+      description: index.services[2].description
+    -
+      image: ./images/banner-01.jpg
+      name: 虚拟桌面
+      description: index.services[3].description
+  # 产品
+  products:
+    -
+      image: ./images/banner-01.jpg
+      name: IDC
+      description: index.products[0].description
+    -
+      image: ./images/banner-01.jpg
+      name: VR
+      description: index.products[1].description
+    -
+      image: ./images/banner-01.jpg
+      name: H3C
+      description: index.products[2].description
+  # 案例
+  cases:
+    -
+      image: ./images/banner-01.jpg
+      name: ""
+      description: index.cases[0].description
+    -
+      image: ./images/banner-01.jpg
+      name: ""
+      description: index.cases[1].description
+    -
+      image: ./images/banner-01.jpg
+      name: ""
+      description: index.cases[2].description
+    -
+      image: ./images/banner-01.jpg
+      name: ""
+      description: index.cases[3].description
+    -
+      image: ./images/banner-01.jpg
+      name: ""
+      description: index.cases[4].description
+    -
+      image: ./images/banner-01.jpg
+      name: ""
+      description: index.cases[5].description
+    -
+      image: ./images/banner-01.jpg
+      name: ""
+      description: index.cases[6].description
+    -
+      image: ./images/banner-01.jpg
+      name: ""
+      description: index.cases[7].description
 
 # -----------------
 # 关于页内容 about content
@@ -136,7 +206,4 @@ footer:
     - 微信: wechatID
     - 电话: telno
   
-
-footerInfo:
-  corpname: 
-  
+since: 2019
