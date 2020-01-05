@@ -18,19 +18,19 @@ corp:
 nav:
   banner:
     - 
-      banner: ./images/banner-01.jpg
+      banner: /images/banner-01.jpg
       slogan: VR解决方案
       description: 填写你需要的简介
     - 
-      banner: ./images/banner-02.jpg
+      banner: /images/banner-02.jpg
       slogan: IDC机房
       description: 填写你需要的简介内容
     - 
-      banner: ./images/banner-03.jpg
+      banner: /images/banner-03.jpg
       slogan: 系统集成
       description: 填写你需要的简介内容目标
     -
-      banner: ./images/banner-04.jpg
+      banner: /images/banner-04.jpg
       slogan: 办公室设备
       description: 这里放置简介
 
