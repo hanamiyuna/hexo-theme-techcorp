@@ -36,11 +36,11 @@ nav:
 
 menu:
  首页: /
- 关于: /about
- 服务: /service
- 案例: /case
- 动态: /update
- 联系我们: /contact
+ 关于宽恒: /about
+ 产品库: /product
+ 解决方案: /solution
+ 成功案例: /case
+ 企业动态: /update
 
 tele: 400-008-0408
 
@@ -71,20 +71,27 @@ footer:
   about: 
     title: 关于宽恒
     items: 
-    - link1: /link1/
+    - 我们是谁: /link1/
+    - 我们的客户: /link2/
+    - 联系方式: /link3/
   
   product:
     title: 产品库
     items:
-    - link1: /link1/
-    - link2: /link2/
+    - VR设备: /link1/
+    - IDC: /link2/
+    - 系统集成: /link3/
+    - 桌面虚拟化: /link4/
       
   service: 
     title: 解决方案
     items:
-    - link1: /link1/
-    - link2: /link2/
-    
+    - 网络安全方案: /link1/
+    - IDC机房方案: /link2/    
+    - VR解决方案: /link3/
+    - 系统服务方案: /link4/
+    - 桌面维护方案: /link5/
+
   case:
     title: 成功案列
     items:

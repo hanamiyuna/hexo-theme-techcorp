@@ -80,7 +80,16 @@
 
 .row-title {
     text-align: center;
-    margin-bottom: 64px;
+}
+
+.row-subtitle {
+    text-align: center;
+    color: #cacaca;
+    margin-bottom: 2rem;
+}
+
+.row-subtitle span {
+    color: rgb(110, 110, 228);
 }
 
 .kh-services, .kh-products,.kh-samples {
@@ -105,8 +114,8 @@
 }
 
 .kh-samples img{
-    height: 192px;
-    width: 256px;
+    height: 160px;
+    width: 192px;
     background: blueviolet;
 }
 
@@ -147,10 +156,10 @@ a {
     color: #fff;
     padding-bottom: 45px;
 }
-#fd dl {
-    /* float: left;
-    width: 20%; */
-}
+/* #fd dl {
+    float: left;
+    width: 20%;
+} */
 #fd dl dt {
     font-size: 16px;
     padding-bottom: 20px;
