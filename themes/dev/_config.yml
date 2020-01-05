@@ -3,7 +3,13 @@
 # -----------------
 
 corp:
-  name: WEBTHINK
+  name: 宽恒
+  nameEnglish: Kuanheng
+  nameFull: 宽恒网络技术有限公司
+  about: 关于宽恒
+  serices: 宽恒服务
+  products: 宽恒产品
+  samples: 成功案例
 
 # -----------------
 # 导航栏 navbar
@@ -12,20 +18,21 @@ corp:
 nav:
   banner:
     - 
-      banner: ./images/banner1.jpg
-      sloganEnglish: innovating
-      slogan: 标语
-      shortDescription: 宣传语
+      banner: ./images/banner-01.jpg
+      slogan: VR解决方案
+      description: 填写你需要的简介
     - 
-      banner: ./images/banner2.jpg
-      sloganEnglish: Website Design
-      slogan: "9 年资深网络建设经验"
-      shortDescription: "我们专注于品质化高端网站构建，企业品牌在网站中的整体树立，网络互动的体验，以及在手机等移动端的优质呈现。"
+      banner: ./images/banner-02.jpg
+      slogan: IDC机房
+      description: 填写你需要的简介内容
     - 
-      banner: ./images/banner3.jpg
-      sloganEnglish: CORPORATE WEBSITE
-      slogan: 高端定制 品牌设计
-      shortDescription: 思恩致力于为客户提供最具有竞争力的网站，将每个案例都做成经典。
+      banner: ./images/banner-03.jpg
+      slogan: 系统集成
+      description: 填写你需要的简介内容目标
+    -
+      banner: ./images/banner-04.jpg
+      slogan: 办公室设备
+      description: 这里放置简介
 
 # -----------------
 # 菜单 menu
@@ -33,11 +40,11 @@ nav:
 
 menu:
  首页: /
- 关于: /about
- 服务: /service
- 案例: /case
- 动态: /update
- 联系我们: /contact
+ 关于宽恒: /about
+ 产品库: /product
+ 解决方案: /solution
+ 成功案例: /case
+ 企业动态: /update
 
 tele: 400-008-0408
 
@@ -53,7 +60,150 @@ tele: 400-008-0408
 layout:
   about:
     name: about
+  solution:
+    name: solution
+  case:
+    name: case
+  update:
+    name: update
+  product:
+    name: product
+# -----------------
+# 主页内容 index content
+# -----------------
+
+index:
+  # 服务
+  services:
+    -
+      image: ./images/banner-01.jpg
+      name: IDC
+      description: index.services[0].description
+    -
+      image: ./images/banner-01.jpg
+      name: 系统集成
+      description: index.services[1].description
+    -
+      image: ./images/banner-01.jpg
+      name: VR 解决方案
+      description: index.services[2].description
+    -
+      image: ./images/banner-01.jpg
+      name: 虚拟桌面
+      description: index.services[3].description
+  # 产品
+  products:
+    -
+      image: ./images/banner-01.jpg
+      name: IDC
+      description: index.products[0].description
+    -
+      image: ./images/banner-01.jpg
+      name: VR
+      description: index.products[1].description
+    -
+      image: ./images/banner-01.jpg
+      name: H3C
+      description: index.products[2].description
+  # 案例
+  cases:
+    -
+      image: ./images/banner-01.jpg
+      name: ""
+      description: index.cases[0].description
+    -
+      image: ./images/banner-01.jpg
+      name: ""
+      description: index.cases[1].description
+    -
+      image: ./images/banner-01.jpg
+      name: ""
+      description: index.cases[2].description
+    -
+      image: ./images/banner-01.jpg
+      name: ""
+      description: index.cases[3].description
+    -
+      image: ./images/banner-01.jpg
+      name: ""
+      description: index.cases[4].description
+    -
+      image: ./images/banner-01.jpg
+      name: ""
+      description: index.cases[5].description
+    -
+      image: ./images/banner-01.jpg
+      name: ""
+      description: index.cases[6].description
+    -
+      image: ./images/banner-01.jpg
+      name: ""
+      description: index.cases[7].description
 
 # -----------------
-# 
+# 关于页内容 about content
 # -----------------
+
+about:
+    topSlogans:
+      -
+        image:
+        title:
+        description:
+      - 
+        image:
+        title:
+        description:
+      -
+        image:
+        title:
+        description:
+
+  
+# -----------------
+# 页脚 footer
+# -----------------
+
+footer:
+  about: 
+    title: 关于宽恒
+    items: 
+    - 我们是谁: /link1/
+    - 我们的客户: /link2/
+    - 联系方式: /link3/
+  
+  product:
+    title: 产品库
+    items:
+    - VR设备: /link1/
+    - IDC: /link2/
+    - 系统集成: /link3/
+    - 桌面虚拟化: /link4/
+      
+  service: 
+    title: 解决方案
+    items:
+    - 网络安全方案: /link1/
+    - IDC机房方案: /link2/    
+    - VR解决方案: /link3/
+    - 系统服务方案: /link4/
+    - 桌面维护方案: /link5/
+
+  case:
+    title: 成功案列
+    items:
+    - link1: /link1/
+    - link2: /link2/
+  
+  update:
+    title: 企业动态
+    items:
+    - link1: /link1/
+
+  contact:
+    title: 联系我们
+    items:
+    - 微信: wechatID
+    - 电话: telno
+  
+since: 2019
