@@ -4,14 +4,14 @@
             <a class="navbar-brand" href="<%= config.url %>">
                 <img src="/images/logo.png" />
             </a>
-            <ul class="nav text-right">
+            <ul class="nav text-right ml-auto">
                 <% for(let i in theme.menu) { %>
-                    <li class="nav-item active">
+                    <li class="nav-item">
                         <a class="nav-link" href="<%- url_for(theme.menu[i]) %>">
                             <%= i %>
                         </a>
                     </li>
-                    <% } %>
+                <% } %>
             </ul>
         </nav>
     </div>

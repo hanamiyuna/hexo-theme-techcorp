@@ -84,6 +84,7 @@
 
 .row-subtitle {
     text-align: center;
+    text-transform: uppercase;
     color: #cacaca;
     margin-bottom: 2rem;
 }
@@ -129,6 +130,7 @@
     index end
 ============================================================== */
 
+/* 这里就是那个链接颜色的问题，点了其他地方之后这个 就不起 效果了 */
 a {
     color: #000022;
 }

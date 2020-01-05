@@ -3,6 +3,9 @@
 # -----------------
 
 corp:
+  name: 宽恒
+  nameEnglish: Kuanheng
+  about: 关于宽恒
   serices: 宽恒服务
   products: 宽恒产品
   samples: 成功案例
@@ -56,11 +59,35 @@ tele: 400-008-0408
 layout:
   about:
     name: about
+  solution:
+    name: solution
+  case:
+    name: case
 
 # -----------------
 # 主页内容 index content
 # -----------------
 
+
+
+# -----------------
+# 关于页内容 about content
+# -----------------
+
+about:
+    topSlogans:
+      -
+        image:
+        title:
+        description:
+      - 
+        image:
+        title:
+        description:
+      -
+        image:
+        title:
+        description:
 
   
 # -----------------
