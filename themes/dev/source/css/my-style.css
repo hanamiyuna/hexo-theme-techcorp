@@ -1,0 +1,123 @@
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+.carousel-item {
+  height: 32rem;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: 400;
+}
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.featurette-divider {
+  margin: 5rem 0; 
+}
+
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -0.05rem;
+}
+
+@media (min-width: 40em) {
+  .carousel-caption p {
+      margin-bottom: 1.25rem;
+      font-size: 1.25rem;
+      line-height: 1.4;
+  }
+
+  .featurette-heading {
+      font-size: 50px;
+  }
+}
+
+@media (min-width: 62em) {
+  .featurette-heading {
+      margin-top: 7rem;
+  }
+}
+
+/* ==============================================================
+  carousel end
+============================================================== */
+
+.container-fluid.corp {
+  width: 100%;
+  padding-top: 4rem;
+}
+
+.row-title {
+  text-align: center;
+}
+
+.row-subtitle {
+  text-align: center;
+  text-transform: uppercase;
+  color: #cacaca;
+  margin-bottom: 2rem;
+}
+
+.row-subtitle span {
+  color: rgb(110, 110, 228);
+}
+
+.kh-services, .kh-products,.kh-samples {
+  box-sizing: border-box;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.kh-services img {
+  height: 96px;
+  width: 96px;
+  border-radius: 48px;
+  background: orange;
+}
+
+.kh-products img{
+  height: 128px;
+  width: 128px;
+  background: green;
+}
+
+.kh-samples img{
+  height: 160px;
+  width: 192px;
+  background: blueviolet;
+}
+
+.kh-services p:nth-of-type(1), .kh-products p:nth-of-type(1) {
+  margin-top: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.ban-bg img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* ==============================================================
+  index end
+============================================================== */
