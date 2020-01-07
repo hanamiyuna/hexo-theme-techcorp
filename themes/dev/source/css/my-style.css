@@ -62,7 +62,6 @@
 ============================================================== */
 
 #fd {
-  margin-top: 3rem;
   padding-top: 3rem;
   background: #191938;
   font-size: 14px;
@@ -117,27 +116,28 @@
 }
 
 .kh-services img {
-  height: 128px;
-  width: 128px;
-  border-radius: 64px;
-  background: orange;
+  margin-bottom: 1rem;
+  height: 144px;
+  width: 144px;
+  border-radius: 50%;
 }
 
 .kh-products img {
-  height: 128px;
-  width: 128px;
-  background: green;
-}
-
-.kh-samples img {
-  height: 160px;
-  width: 192px;
-  background: blueviolet;
+  margin-bottom: 1rem;
+  width: 256px;
 }
 
 .kh-services p:nth-of-type(1),
 .kh-products p:nth-of-type(1) {
   margin-top: 16px;
+}
+
+.divi {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+  width: 40px;
+  height: 1px;
+  background: #3a3a3a;
 }
 
 .ban-bg img {
