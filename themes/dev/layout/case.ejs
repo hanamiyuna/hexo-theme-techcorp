@@ -1,44 +1,7 @@
-<div id="bd">
-    <div id="ban-in" style="background-image:url(/images/14415956337556.jpg)">
-        <div class="ban-bg"></div>
-    </div>
-    <div class="wp">
-        <div class="tit-i">
-            <h2 class="row-title"><%= page.title %></h2>
-            <h5 class="row-subtitle"><%- theme.corp.nameEnglish %> <span><%= theme.layout.case.name %></span></h5>
-        </div>
-        
-        <div class="c"></div>
-    </div>
+<div class="tit-i">
+  <h2 class="row-title"><%= page.title %></h2>
+  <h5 class="row-subtitle"><%- theme.corp.nameEnglish %> <span><%= theme.layout.case.name %></span></h5>
 </div>
-<div class="c"></div>
+
 
 <%- partial('_partial/min-script') %>
-<script>
-    var isMobile;
-    function mobileCheck() {
-        isMobile = $('#m-hd').is(':visible');
-    }
-
-    $(window).resize(function (event) {
-        mobileCheck();
-        $('.ul-case li').removeClass('on');
-        if (isMobile) {
-            $('.ul-case').attr('id', 'ul-mobile');
-        } else {
-            $('.ul-case').attr('id', 'ul-pc');
-        }
-    });
-
-    $('body').on('mouseenter mouseleave', '#ul-pc li', function () {
-        $(this).toggleClass('on');
-    })
-
-    $('body').on('click', '#ul-mobile li', function () {
-        $(this).toggleClass('on');
-    })
-
-    $(window).load(function () {
-        $(window).trigger('resize');
-    })
-</script>

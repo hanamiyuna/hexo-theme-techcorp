@@ -13,6 +13,7 @@
   left: 0;
   min-width: 100%;
   height: 32rem;
+  object-fit: contain;
 }
 
 .marketing .col-lg-4 {
@@ -86,7 +87,9 @@
 
 .container-fluid.corp {
   width: 100%;
-  padding-top: 4rem;
+  padding-top: 8rem;
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 .row-title {
@@ -98,32 +101,44 @@
   text-align: center;
   text-transform: uppercase;
   color: #cacaca;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
 
 .row-subtitle span {
-  color: rgb(110, 110, 228);
+  color: orangered;
 }
 
 .kh-services,
 .kh-products,
 .kh-samples {
   box-sizing: border-box;
-  padding: 24px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: #3a3a3a;
+  text-align: justify;
+}
+
+.kh-services p:nth-of-type(2),
+.kh-products p:nth-of-type(2),
+.kh-samples p:nth-of-type(2) {
+  padding: 0 44px;
+  font-size: 14px;
+  line-height: 28px;
+  color: #6a6a6a;
+  margin-bottom: 2rem;
 }
 
 .kh-services img {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   height: 144px;
   width: 144px;
   border-radius: 50%;
+  object-fit: cover;
 }
 
 .kh-products img {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   width: 256px;
 }
 
@@ -133,11 +148,11 @@
 }
 
 .divi {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin-top: 1.5rem;
+  margin-bottom: 3rem;
   width: 40px;
-  height: 1px;
-  background: #3a3a3a;
+  height: 2px;
+  background: orangered;
 }
 
 .ban-bg img {
@@ -150,4 +165,53 @@
 
 /* ==============================================================
   index end
+============================================================== */
+
+.about-banner {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+}
+
+.about,
+.customer {
+  margin-bottom: 4rem;
+}
+
+.about.content {
+  text-align: center;
+  color: #6a6a6a;
+  font-size: 14px;
+}
+
+.customer .item {
+  height: 128px;
+  object-fit: contain;
+}
+
+.contact-us {
+  font-size: 14px;
+  color: #6a6a6a;
+}
+
+.contact-us ul {
+  list-style-type: none;
+}
+
+.contact-us ul li {
+  line-height: 32px;
+  margin-bottom: 1rem;
+}
+
+.contact-us a {
+  color: #6a6a6a;
+}
+
+#map {
+  border: 1px #bababa solid;
+  box-shadow: 0 0 20px #bababa;
+}
+
+/* ==============================================================
+  about end
 ============================================================== */

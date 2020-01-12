@@ -77,34 +77,48 @@ index:
   services:
     -
       image: ./images/banner-01.jpg
-      name: IDC
-      description: index.services[0].description
+      name: VR行业解决方案
+      description: 针对各行业业务特性形成的AR增强现实解决方案及VR虚拟现实解决方案，为用户提供多方位服务。包括地产、家装、科研、展厅、营销、工业、教育、巡检远程指导，旅游等行业。
+    -
+      image: ./images/banner-01.jpg
+      name: 云计算基础架构搭建
+      description: 为数据中心、云计算、企业 IT、大型数据、HPC 和嵌入式市场开发并提供端到端的绿色计算解决方案。我们的模组化构建式解决方案允许我们提供范围广泛的 SKU, 并使我们能够根据您的需求构建和交付应用程序优化的解决方案。
     -
       image: ./images/banner-01.jpg
       name: 系统集成
       description: index.services[1].description
     -
       image: ./images/banner-01.jpg
-      name: VR 解决方案
-      description: index.services[2].description
+      name: IDC机房
+      description: index.services[0].description
     -
       image: ./images/banner-01.jpg
-      name: 虚拟桌面
-      description: index.services[3].description
+      name: 桌面化办公设备
+      description: 供应品牌PC、兼容PC、办公设备（打印机、复印机、扫描仪）
+
   # 产品
   products:
     -
       image: ./images/banner-01.jpg
-      name: IDC
+      name: VR行业解决方案
       description: index.products[0].description
     -
       image: ./images/banner-01.jpg
-      name: VR
+      name: 云计算基础架构搭建
       description: index.products[1].description
     -
       image: ./images/banner-01.jpg
-      name: H3C
+      name: 系统集成
       description: index.products[2].description
+    -
+      image: ./images/banner-01.jpg
+      name: IDC机房
+      description: index.products[2].description
+    -
+      image: ./images/banner-01.jpg
+      name: 桌面化办公设备
+      description: 供应品牌PC、兼容PC、办公设备（打印机、复印机、扫描仪）
+
   # 案例
   cases:
     -

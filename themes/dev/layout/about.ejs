@@ -1,115 +1,81 @@
-<div id="bd">
-    <div id="ban-in">
-        <div class="ban-bg">
-            <img src="/images/about.png" />
-        </div>
+<img class="about-banner" src="/images/about-banner.jpg">
+
+<div class="tit-i">
+  <h2 class="row-title"><%= page.title %></h2>
+  <h5 class="row-subtitle" style="margin: 0;"><%- theme.corp.nameEnglish %>
+    <span><%= theme.layout.about.name %></span></h5>
+</div>
+<div class="about content container">
+  <p>网博思创网络技术（北京）有限公司，简称思恩，英文名称Webthink。</p>
+  <p> 思恩是由从事多年互联网界研究的海外归国人员于2007年创办，拥有强大的运营团队和技术团队，专注于高端网站定制、企业网站建设、手机移动网站建设、手机APP定制开发、应用系统开发等，为企业提供全球化互联网解决方案。</p>
+  <p>
+    公司自创立以来，已成功为500多家企事业单位、政府机关提供过高端互联网服务，其中包括中软集团、大众汽车、思科、中国银行、华夏银行、中赫集团、碧生源、朗波尔、凤凰瑜伽、华夏银行、华夏典当行、华胜天成、宝瑞通典当行、传媒大学、中粮集团、国际安全信息中心、国家经济中心、国家统计局、等等。
+  </p>
+  <p>对思恩来说，客户是具有排他性、唯一性的。我们强调个性定制化的方式与您沟通，通过创意、新技术新媒体的结合运用，为您提供整合的解决方案与全方位的视觉传播服务。</p>
+  <p>思恩洞悉中国互联网发展轨迹的同时，以最为专业的网络新思维去深入思考网络在中国企业、中国互联网运营商以及网民中的真正价值，坚定不移的扛起中国网络创新的大旗，致力于揭开网络应用的新篇章！</p>
+</div>
+
+<div class="tit-i">
+  <h2 class="row-title">我们的客户</h2>
+  <h5 class="row-subtitle" style="margin: 0;">OUR <span>CUSTOMER</span></h5>
+</div>
+<div class="customer container">
+  <div class="row">
+    <img class="item col-sm-3" src="/images/client-01.png">
+    <img class="item col-sm-3" src="/images/client-02.png">
+    <img class="item col-sm-3" src="/images/client-03.png">
+    <img class="item col-sm-3" src="/images/client-04.png">
+    <img class="item col-sm-3" src="/images/client-05.png">
+    <img class="item col-sm-3" src="/images/client-06.png">
+    <img class="item col-sm-3" src="/images/client-07.png">
+    <img class="item col-sm-3" src="/images/client-08.png">
+  </div>
+</div>
+
+<div class="container" style="padding-bottom: 4rem;">
+  <div class="tit-i">
+    <h2 class="row-title">联系我们</h2>
+    <h5 class="row-subtitle" style="margin: 0;"><span>CONTACT</span> US</h5>
+  </div>
+  <div class="row">
+    <div class="col-sm">
+      <div id="map" style="width: 100%; min-height: 300px;"></div>
     </div>
-    <div class="wp" id="whous">
-        <div class="tit-i">
-            <h2 class="row-title"><%= page.title %></h2>
-            <h5 class="row-subtitle"><%- theme.corp.nameEnglish %> <span><%= theme.layout.about.name %></span></h5>
-        </div>
-        <div class="about markdown content">
-            <%- page.content %>
-        </div>
-    </div>
-    <div class="container-fluid corp" style="background: url(../images/bg_2.png) center top no-repeat;">
-        <h2 class="row-title" style="color: white;"><%= theme.corp.samples %></h2>
-        <h5 class="row-subtitle"><span>SERVICE</span> OF KUANHENG</h5>
-        <div class="row">
-            <div class="kh-samples col-sm-3">
-                <img src="<%- url_for(theme.index.cases[0].image) %>"></img>
-            </div>
-            <div class="kh-samples col-sm-3">
-                <img src="<%- url_for(theme.index.cases[1].image) %>"></img>
-            </div>
-            <div class="kh-samples col-sm-3">
-                <img src="<%- url_for(theme.index.cases[2].image) %>"></img>
-            </div>
-            <div class="kh-samples col-sm-3">
-                <img src="<%- url_for(theme.index.cases[3].image) %>"></img>
-            </div>
-        </div>
-        <div class="row">
-            <div class="kh-samples col-sm-3">
-                <img src="<%- url_for(theme.index.cases[4].image) %>"></img>
-            </div>
-            <div class="kh-samples col-sm-3">
-                <img src="<%- url_for(theme.index.cases[5].image) %>"></img>
-            </div>
-            <div class="kh-samples col-sm-3">
-                <img src="<%- url_for(theme.index.cases[6].image) %>"></img>
-            </div>
-            <div class="kh-samples col-sm-3">
-                <img src="<%- url_for(theme.index.cases[7].image) %>"></img>
-            </div>
-        </div>
-    </div>
-    <div class="tit-i">
-        <h3>联系我们</h3>
-        <h5><span>contact</span> webthink</h5>
-    </div>
-    <div class="contact-l">
-        <ul class="ul-contact">
-            <li class="li1">北京市朝阳区建国路88号SOHO现代城6#3208</li>
-            <li class="li2"><a href="tel:010-51265006">010-51265006 (咨询) / <a href="tel:010-52459737">52459737 (售后)<br /><a href="tel:400-008-0408">400-008-0408 (咨询)</a><br /><a href="tel:13581789985">13581789985 (咨询)</li>
-            <li class="li3"><a href="mailto:sales@webthink.com.cn">sales@webthink.com.cn</a></li>
+    <div class="col-sm" style="margin-top: 3rem;">
+      <div class="contact-us">
+        <ul>
+          <li>地址：广州市天河区天河路518号地中海酒店1701-1704</li>
+          <li><a href="tel:020-87593053">电话：020-87593053</a></li>
+          <li><a href="mailto:sito.kaming@outlook.com">邮箱：sito.kaming@outlook.com</a></li>
         </ul>
+      </div>
     </div>
-    <div class="contact-r">
+  </div>
+</div>
 
-        <form action="" class="contact-form" method="post">
-            <div class="">
-                <input type="text" class="inp l" name="name" id="name" placeholder="您的姓名">
-                <input type="text" class="inp r" name="tel" id="tel" placeholder="您的联系方式">
-            </div>
-            <textarea cols="30" rows="10" name="txt_con" id="txt"></textarea>
-            <input type="submit" value="提交您的需求" class="sub" id="sub">
-        </form>
-    </div>
+<script>
+  window.onLoad = function () {
+    var map = new AMap.Map('map', {
+      zoom: 16, //级别
+      center: [113.3369380000, 23.1329550000], //中心点坐标
+      viewMode: '3D' //使用3D视图
+    });
+    AMap.plugin([
+      'AMap.ToolBar'
+    ], function () {
+      // 在图面添加工具条控件，工具条控件集成了缩放、平移、定位等功能按钮在内的组合控件
+      map.addControl(new AMap.ToolBar());
+    });
+    var marker = new AMap.Marker({
+      position: [113.3369380000, 23.1329550000] //位置
+    })
+    map.add(marker); //添加到地图
+  }
+  var url = 'https://webapi.amap.com/maps?v=1.4.15&key=12e21facbf2086e07f40d24043352f4d&callback=onLoad';
+  var jsapi = document.createElement('script');
+  jsapi.charset = 'utf-8';
+  jsapi.src = url;
+  document.head.appendChild(jsapi);
+</script>
 
-    <%- partial('_partial/script') %>
-
-    <script>
-        $('.team .flexslider').flexslider({
-            animation: "slide",
-            animationLoop: true,
-            slideshow: false,
-            prevText: "",
-            nextText: "",
-            controlNav: false,
-            directionNav: true,
-            pauseOnHover: true,
-            slideshowSpeed: 3000,
-            start: function (slider) {
-
-            },
-            before: function () {
-                $('.flexslider').resize();
-            },
-            after: function (slider) {
-                initState();
-                move();
-            }
-        });
-        function initState() {
-            $('.team .animated').each(function () {
-                var dataAnimate = $(this).data('animate');
-                $(this).removeClass(dataAnimate);
-            })
-        }
-        function move() {
-            var curSlide = $('.team .slides li.flex-active-slide');
-            var h3 = curSlide.find('h3'),
-                p = curSlide.find('p'),
-                img = curSlide.find('img');
-            h3.addClass(h3.data('animate'));
-            p.addClass(p.data('animate'));
-            img.each(function () {
-                $(this).addClass($(this).data('animate')).css({ 'animation-delay': $(this).data('delay') + 's' });
-            })
-        }
-        $(window).load(function () {
-            move();
-        })
-    </script>
+<%- partial('_partial/script') %>
