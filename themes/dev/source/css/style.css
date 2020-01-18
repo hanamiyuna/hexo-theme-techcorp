@@ -1,6 +1,6 @@
-﻿a {
+﻿/* a {
     color: #000022;
-}
+} */
 
 .carousel {
     height: 500px;
@@ -66,9 +66,9 @@ body {
   margin: 0 auto;
 }
 
-a {
+/* a {
   color: #333;
-}
+} */
 
 a:hover {
   color: #e4392a;
